@@ -2,6 +2,7 @@
 let driver = ["driver"]
 
 function updateDriverWithKeyAndValue(driver, key, value){
+  let newDriver = driver
   return }
 
 function destructivelyUpdateDriverWithKeyAndValue(driver, key, value){
