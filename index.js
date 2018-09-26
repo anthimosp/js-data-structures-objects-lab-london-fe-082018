@@ -11,4 +11,4 @@ function deleteFromDriverByKey(driver, key){
   Object.assign(delete.key, driver)}
 
 function destructivelyDeleteFromDriverByKey(driver, key){
-  }
+    delete.}
