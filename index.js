@@ -11,6 +11,7 @@ function deleteFromDriverByKey(driver, key){
     }
 
 function destructivelyDeleteFromDriverByKey(driver, key){
-    return driver
+    let newdriver = destructivelyDeleteFromDriverByKey(driver, 'name');
+expect(newdriver['name']).to.equal(undefined);
   
 }
